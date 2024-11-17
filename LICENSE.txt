@@ -1,0 +1,11 @@
+Copyright (c) 2024, Lászka Adrián Péter
+
+Ez a szoftver ingyenesen használható a Lászka Adrián Péter által biztosított, kizárólagos hostolási környezetben. A szoftver másolása, módosítása, újraértékesítése vagy bármilyen más formában történõ terjesztése szigorúan tilos.
+
+Feltételek:
+1. A szoftver kizárólag a Lászka Adrián Péter által üzemeltetett webkörnyezetben érhetõ el és használható.
+2. A felhasználási jogot bármikor visszavonhatom, elõzetes értesítés mellett vagy anélkül.
+3. A szoftverhez semmilyen forráskódot nem biztosítok, és tilos bármilyen formában a szoftver visszafejtése.
+4. A szoftver "ahogy van" alapon kerül biztosításra, garancia nélkül. Nem vállalok felelõsséget semmilyen kárért, amely a használatából ered.
+
+A szoftver használatával a felhasználó elfogadja a fenti feltételeket.
