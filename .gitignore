@@ -1,0 +1,13 @@
+# ASP.NET Core specific
+.vs
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+appsettings*.json
+
+# Angular specific
+/dist/
+/node_modules/
+.angular/
