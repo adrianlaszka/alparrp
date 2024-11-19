@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AlparRP.Data
 {
-    public class AppDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
 
         public DbSet<DiscordUser> DiscordUsers { get; set; }
