@@ -10,5 +10,12 @@ namespace AlparRP.Data
 
         public DbSet<DiscordUser> DiscordUsers { get; set; }
         public DbSet<UserActivityLog> UserActivityLogs { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Ha nem lenne automatikusan beállítva, expliciten állítsuk be az elsődleges kulcsot.
+            modelBuilder.Entity<UserActivityLog>()
+                .HasKey(u => u.LogId); // Az 'Id' legyen az elsődleges kulcs.
+        }
     }
 }
