@@ -7,6 +7,7 @@ namespace AlparRP.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options) { }
+
         public DbSet<DiscordUser> DiscordUsers { get; set; }
         public DbSet<UserActivityLog> UserActivityLogs { get; set; }
     }
