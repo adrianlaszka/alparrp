@@ -1,8 +1,8 @@
-﻿namespace AlparRP.Data
+﻿namespace AlparRP.Models
 {
     public class UserActivityLog
     {
-    // LogId lesz az elsődleges kulcs, így szükséges a HasKey használata a DbContext-ben
+        // LogId lesz az elsődleges kulcs, így szükséges a HasKey használata a DbContext-ben
         public int LogId { get; set; } // Elsődleges kulcs: LogId
         public int UserId { get; set; } // Hivatkozás a felhasználóra (DiscordUser)
         public string Activity { get; set; } // Az aktivitás leírása
